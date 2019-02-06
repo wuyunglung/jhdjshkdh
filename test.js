@@ -22,7 +22,7 @@ test('responds to requests', (t) => {
       t.equal(response.statusCode, 200);
       // Assert content checks
       t.notEqual(body.indexOf("<title>5556Node.js Getting Started on Heroku</title>"), -1);
-      t.notEqual(body.indexOf("1111111Getting Started with Node on Heroku"), -1);
+      t.notEqual(body.indexOf("1111111Getting Started 123 with Node on Heroku"), -1);
     });
   });
 });
